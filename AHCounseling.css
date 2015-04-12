@@ -1,5 +1,10 @@
 
-h1{text-align: center;}
+h1{
+  text-align: center;
+}
+.pCntr {
+  text-align: center;
+}
 body {
    //background-color: DimGray;
    background-color: #47A347;
