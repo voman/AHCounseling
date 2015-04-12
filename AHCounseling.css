@@ -1,0 +1,65 @@
+
+h1{text-align: center;}
+body {
+   //background-color: DimGray;
+   background-color: #47A347;
+}
+.PageContentStyle {
+   margin-top: -30px;
+}
+@media only screen and (max-width: 900px),
+only screen and (max-device-width: 900px) {
+   .Container {
+       font-family: 'Roboto', sans-serif;
+       padding: 8px;
+       width: 100vw;
+       max-width: 900px;
+       background-color: #f1f1f1;
+       margin-left: auto;
+       margin-right: auto;
+       margin: -13px;
+       box-shadow: 5px 5px 5px #2A2A2A;
+       border-radius: 5px;
+       min-height: 84vh;
+   }
+   #flip {
+       max-width: 900px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   .SmallerScreens {
+       display: block;
+   }
+   .BiggerScreens {
+       display: none;
+   }
+}
+@media only screen and (min-width: 920px),
+only screen and (min-device-width: 920px) {
+   .Container {
+       font-family: 'Roboto', sans-serif;
+       padding: 10px;
+       max-width: 920px;
+       width: 920px;
+       background-color: #f1f1f1;
+       margin-left: auto;
+       margin-right: auto;
+       box-shadow: 5px 5px 5px #2A2A2A;
+       border-radius: 5px;
+       min-height: 85vh;
+   }
+   #flip {
+       padding: 3px;
+       margin-left: auto;
+       margin-right: auto;
+       max-width: 920px;
+       width: 920px;
+       border-radius: 5px;
+   }
+   .BiggerScreens {
+       display: block;
+   }
+   .SmallerScreens {
+       display: none;
+   }
+}
